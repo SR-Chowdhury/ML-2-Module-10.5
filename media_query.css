@@ -1,0 +1,122 @@
+/* ------------------------------
+    @Media Qeury for Mobile Start 
+-------------------------------*/
+
+@media only screen and (max-width: 687px) {
+    header ul .mb-device {
+        display: none;
+    }
+
+    header {
+        padding: 35px 15px 0px 15px;
+    }
+    .banner-container {
+        padding: 35px 15px 0px 15px;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .nav-hidden-icon {
+        display: contents;
+    }
+
+    .nav-hidden-icon a {
+        font-size: 24px;
+        color: #3A3A3A;
+    }
+
+    .banner-right img {
+        width: 100%;
+        height: 100%;
+    }
+    .banner-left {
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 35px;
+    }
+    .sponsored-container {
+        margin-top: 0px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 35px 15px 0px 15px;
+        align-items: center;
+        gap: 5px;
+        border: 0;
+        margin-bottom: 50px !important;
+    }
+    .collection-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px 15px 0px 15px;
+    }
+    .see-more-btn {
+        margin-right: 15px;
+    }
+    .featured-section {
+        flex-direction: column-reverse;
+        padding: 35px 15px 0px 15px;
+        text-align: center;
+        gap: 40px;
+    }
+    .featured-title {
+        font-size: 30px;
+    }
+    .featured-img img {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        margin-top: 45px;
+    }
+}
+
+/* ------------------------------
+    @Media Qeury for Tablet Start 
+-------------------------------*/
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    header,
+    .banner-container {
+        padding: 35px 15px 0px 15px;
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-left {
+        text-align: center;
+    }
+    .sponsored-container {
+        margin-top: 0px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 45px 15px 0px 15px;
+        align-items: center;
+        row-gap: 15px;
+        column-gap: 45px;
+        border: 0;
+        margin-bottom: 50px !important;
+    }
+    .collection-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px 15px 0px 15px;
+    }
+    .collection-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .featured-section {
+        flex-direction: column-reverse;
+        padding: 35px 15px 0px 15px;
+        text-align: center;
+        gap: 40px;
+    }
+    .featured-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .see-more-btn {
+        margin-right: 15px;
+    }
+}
+
